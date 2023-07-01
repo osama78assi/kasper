@@ -1,0 +1,79 @@
+:root {
+    --primary-color: #00c7fc;
+    --msg-color: #0f748fb3;
+}
+/* Start Header */
+.color {
+    color: var(--primary-color);
+}
+.show-nav {
+    display: flex !important;
+}
+.right-nav {
+    --cur-color: #0f748fb3;
+    background-color: var(--cur-color) !important;
+    right: 40px !important;
+    top: 0px;
+}
+.stick {
+    --hight: 0px;
+    position: sticky;
+    top: var(--hight);
+    background-color: var(--msg-color);
+}
+/* End Header */
+/* Start Landing */
+.landing .hidden-msg {
+    left: -100%;
+}
+.landing .hidden {
+    left: -100%;
+}
+.landing .right {
+    right: -100%;
+}
+.landing .show {
+    left: 0;
+    right: 0;
+}
+.landing .points span.active {
+    background-color: var(--primary-color);
+}
+.landing .points span.inactive {
+    background-color: #333;
+}
+.dis {
+    pointer-events: none;
+}
+/* End Landing */
+/* Start Portfolio */
+.portfolio .act {
+    background-color: var(--primary-color);
+    color: white;
+    pointer-events: none;
+}
+.no-opacity {
+    transition-duration: 1s;
+    transition-property: opacity;
+    opacity: 0;
+}
+.hide {
+    display: none;
+}
+.about .people .pre {
+    position: absolute;
+}
+.about .people .act {
+    left: 0px;
+    top: 0px;
+    display: flex;
+}
+.about .people .hidden {
+    left: -1060px;
+    top: 0px;
+    display: flex;
+}
+/* End Portfolio */
+/* Start About */
+
+/* End About */
